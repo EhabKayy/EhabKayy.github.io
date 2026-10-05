@@ -6,8 +6,9 @@ Personal portfolio of **Ehab Kayyali** — software engineer and M.S. Computer E
 
 ## About this site
 - Static HTML + CSS, hosted on GitHub Pages
-- No JavaScript, no trackers, no cookies, no forms
-- Strict Content Security Policy: the page can only load its own stylesheet and Google Fonts
+- Two looks: a clean formal theme (default) and an interactive gold theme with mouse-reactive particles
+- No trackers, no cookies, no forms; one small first-party script (`main.js`) for the gold theme
+- Strict Content Security Policy: the page can only load its own files and Google Fonts
 - Light and dark mode, mobile-friendly
 
 ## Projects featured

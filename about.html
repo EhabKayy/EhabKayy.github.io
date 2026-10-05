@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="color-scheme" content="light dark">
+<title>About Ehab Kayyali</title>
+<meta name="description" content="Ehab Kayyali — software engineer and computer engineering master's student at FIU building AI for health tech.">
+<meta property="og:title" content="Ehab Kayyali">
+<meta property="og:description" content="Ehab Kayyali — software engineer and computer engineering master's student at FIU building AI for health tech.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ehabkayy.github.io/about.html">
+<link rel="canonical" href="https://ehabkayy.github.io/about.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230a6a85'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='16' font-weight='700' fill='white' text-anchor='middle'%3EEK%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Dela+Gothic+One&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="gold.css" id="gold-css" media="not all">
+<script src="main.js" defer></script>
+</head>
+<body>
+<canvas id="embers" aria-hidden="true"></canvas>
+<div class="fx-glow" aria-hidden="true"></div>
+<div class="fx-dots" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="mark" href="index.html">Ehab Kayyali</a>
+    <div class="nav-right">
+    <nav aria-label="Sections">
+      <ul>
+        <li><a href="about.html" aria-current="page">About me</a></li>
+        <li><a href="index.html#work">Projects</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="skin-toggle" id="skin" type="button" aria-pressed="false"><span class="knob" aria-hidden="true"></span><span id="skin-label">Gold mode</span></button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+  <section class="hero about-hero">
+    <div class="hero-clip" aria-hidden="true"></div>
+    <p class="eyebrow">About me</p>
+    <h1>Hey, I'm Ehab. Thanks for stopping by.</h1>
+    <p class="lede">Let me tell you a little about how I got here, and why I do what I do.</p>
+  </section>
+
+  <section class="row" id="story">
+    <h2>My story</h2>
+    <div class="body story">
+      <p>My start in tech began with my hands, doing jobs and tasks such as: running networks, cameras, and access systems across Miami, then as technology evolved I moved into AI work at Outlier AI. What changed the direction of my career was my mother's fight with lung cancer.</p>
+      <p>Ever since then, I spent a lot of time in the hospital while she underwent her treatment. I watched the scanners, the monitors, and the people who ran them; I saw technology and medicine come together to give her a fighting chance for life, and with this help she beat it. All that time there made me realize and care more about what technology can do for patients and how far it can still go.</p>
+      <p>That's why I build AI for health tech. I want to make tools that help people recover, move, and live better. If my work helps save even one life the way those systems helped save my mother's, then the work will be worth it.</p>
+    </div>
+  </section>
+
+  <section class="row" id="interests">
+    <h2>What drives me</h2>
+    <div class="body">
+      <p class="muted">Here's what I'm most excited to work on.</p>
+    <div class="interests">
+      <article class="interest">
+        <span class="kicker">Biomedical</span>
+        <h4>Prosthetics &amp; assistive tech</h4>
+        <p>Devices that give people back movement and independence. E.H.A.B. is my first step in this direction.</p>
+      </article>
+      <article class="interest">
+        <span class="kicker">AI</span>
+        <h4>AI in healthcare</h4>
+        <p>Earlier detection, smarter monitoring, and tools that give doctors and patients better information, faster.</p>
+      </article>
+      <article class="interest">
+        <span class="kicker">Robotics</span>
+        <h4>Robotics &amp; military tech</h4>
+        <p>Machines that sense and act in the real world, from surgical robots to systems built for the field.</p>
+      </article>
+      <article class="interest">
+        <span class="kicker">Security</span>
+        <h4>Security &amp; forensics</h4>
+        <p>Vulnerability research, reverse engineering, and digital forensics. Medical devices and health data need protecting too.</p>
+      </article>
+    </div>
+    </div>
+  </section>
+
+  <section class="row" id="connect">
+    <h2>Let's talk</h2>
+    <div class="body">
+      <p class="closing">If any of this lines up with what you're working on, I'd love to hear from you. Reach out on LinkedIn, or take a look at my code on GitHub.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://www.linkedin.com/in/ehab-kayyali/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a class="btn" href="https://github.com/EhabKayy" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a class="btn" href="index.html#work">See my projects</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">© 2026 Ehab Kayyali · Miami, FL</footer>
+</body>
+</html>
