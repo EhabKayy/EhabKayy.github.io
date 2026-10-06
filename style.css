@@ -161,3 +161,5 @@ footer { border-top: 1px solid var(--line); padding-block: 28px 48px; color: var
 .story { gap: 20px; }
 .story p { font-size: 1.12rem; line-height: 1.75; }
 .closing { font-size: 1.12rem; }
+
+.project-links { display: flex; gap: 20px; flex-wrap: wrap; }
